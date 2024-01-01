@@ -1,0 +1,36 @@
+/*footer 전체*/
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-top: 1px solid lightgray;
+  background-color: aliceblue;
+}
+
+/*아이콘들+글자 전체 세트*/
+.footer-block {
+  display: flex;
+  justify-content: space-evenly; /*화면 크기가 줄여도 각각의 거리가 일정하게 유지됨*/
+  align-items: center;
+}
+
+/*아이콘들+글자 한 세트*/
+.footer-icons {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /*위아래로 배치되도록 해줌*/
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+}
+
+/*아이콘 이미지*/
+.footer-icons img {
+  width: 70px;
+  height: 30px;
+}
+

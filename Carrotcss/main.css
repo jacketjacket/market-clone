@@ -1,0 +1,62 @@
+main {
+  padding: 30px 20px 30px 20px;
+}
+
+/* item list 이미지 + 설명란 모두 포함하는 것 */
+.item-list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 0 20px 0;
+}
+
+/* item 이미지 */
+.item-list__img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+/*item info 부분(제목, 위치, 가격 */
+.item-list__info {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.item-list__info div {
+  margin-top: 5px;
+}
+
+.item-list__info-title {
+  font-size: large;
+}
+.item-list__info-meta {
+  font-size: smaller;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.item-list__info-price {
+  font-weight: bolder;
+}
+
+.write-btn {
+  width: 120px;
+  height: 50px;
+  font-size: large;
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background-color: rgb(254, 111, 15);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+}
